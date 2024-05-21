@@ -1,0 +1,247 @@
+.landing-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.landing-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+}
+
+.landing-content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.landing-content-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+#landing-button {
+    display: flex;
+    flex-direction: row;
+}
+
+#landing-button a {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.primary-button{
+    background-color: #f8be60;
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.primary-button:hover{
+    background-color: #F9A826;
+}
+
+#secondary-button {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9A826;
+    color: #F9A826;
+}
+
+.login-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+}
+
+.login-content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box{
+    text-align: center;
+    position: absolute;
+    width: 35em;
+    height: 25.5em;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 7px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.header{
+    background-size: cover;
+    background-color: #f8e8ce;
+    padding: 0.2em;
+    border-radius: 8px;
+}
+
+.header h4{
+    color: #394253;
+}
+
+.login-area{
+    text-align: center;
+    padding: 30px 50px 10px 50px;
+}
+
+.username,
+.password {
+    width: 80%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    outline: #dac6a7;
+    border:  #dac6a7 solid 0.2em;
+    color: #394253;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.submit{
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 550;
+    background-color: #f8be60;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #F9A826;
+}
+
+.login-area a {
+    display: block;
+    font-size: x-small;
+    text-decoration: none;
+    color: #F9A826;
+}
+
+.forgett p{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.arahan-register p{
+    margin: 0%;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.boxx{
+    text-align: center;
+    position: absolute;
+    width: 35em;
+    height: 11em;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 7px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.balik{
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 550;
+    background-color: #f8be60;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.balik:hover{
+    background-color: #F9A826;
+}
+
+.login-daftar{
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    padding: 10px 50px 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: 530;
+    background-color: #f8be60;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.login-daftar:hover{
+    background-color: #F9A826;
+}
+
+@font-face {
+    font-family: Allenoire;
+    src: url(font/Allenoire.otf) format("opentype");
+   }
+   
+   h1.catatanmu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Allenoire;
+    font-size: 2em;
+    color: #6a532e;
+   }
