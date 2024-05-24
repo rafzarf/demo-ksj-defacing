@@ -7,7 +7,7 @@ require_once("connection.php");
 $uname = $_SESSION["user"]["username"];
 
 // Variabel untuk membaca data
-$profile = mysqli_query($conn, "SELECT * FROM profile WHERE username='$username'");
+$profile = mysqli_query($conn, "SELECT * FROM profile WHERE username='$uname'");
 if (!$profile) {
     printf("Error: %s\n", mysqli_error($conn));
     exit();
