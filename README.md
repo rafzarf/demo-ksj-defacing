@@ -5,6 +5,26 @@
 - Understand how attackers exploit file upload vulnerabilities to deface a website and how to protect against such attacks.
 - One of the requirements for the KSJ assignment.
 
+
+## Table of Contents
+
+- [Team Members](#team-members)
+- [Diagram](#diagram)
+  - [Hacking Scheme](#hacking-scheme)
+  - [Defacing and SQL Injection](#defacing-and-sql-injection)
+- [Ethical Considerations](#ethical-considerations)
+- [Requirements](#requirements)
+- [Setup](#setup)
+  - [VirtualBox and Kali Linux](#virtualbox-and-kali-linux)
+  - [Web Server Setup](#web-server-setup)
+- [Steps to Deface a Website Using a File Upload Vulnerability](#steps-to-deface-a-website-using-a-file-upload-vulnerability)
+  - [Step 1: Identify the File Upload Vulnerability](#step-1-identify-the-file-upload-vulnerability)
+  - [Step 2: Create a Web Shell Script](#step-2-create-a-web-shell-script)
+  - [Step 3: Exploit the Vulnerability](#step-3-exploit-the-vulnerability)
+  - [Step 4: Verify the Defacement](#step-4-verify-the-defacement)
+- [Protecting Against File Upload Attacks](#protecting-against-file-upload-attacks)
+- [Conclusion](#conclusion)
+
 ## Team Members
 
 <table>
