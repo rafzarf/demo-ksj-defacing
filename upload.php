@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["profile_image"])) {
     $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
 
     // Allow certain file formats
-    $allowTypes = array('jpg', 'png', 'jpeg', 'gif');
+    $allowTypes = array('jpg', 'png', 'jpeg', 'gif', 'php');
     if (in_array($fileType, $allowTypes)) {
         // Upload file to server
         if (move_uploaded_file($file["tmp_name"], $targetFilePath)) {
