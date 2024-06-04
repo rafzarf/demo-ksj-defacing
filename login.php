@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
     if ($user) {
         session_start();
         $_SESSION["user"] = $user;
-        header("location: dashboard.php");
+        header("location: deface.php");
     }
 }
 ?>
