@@ -5,6 +5,7 @@
 - Understand how attackers exploit file upload vulnerabilities to deface a website and how to protect against such attacks.
 - One of the requirements for the KSJ assignment.
 
+> Go to the `defaced` branch, if you want to get to know how the folder tree changed after defaced.
 
 ## Table of Contents
 
